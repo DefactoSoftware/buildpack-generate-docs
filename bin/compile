@@ -6,7 +6,7 @@ set -o nounset    # fail on unset variables
 
 echo This is the generate-docs buildpack
 
-git clone git@github.com:DefactoSoftware/detroit.git
+git clone https://github.com/DefactoSoftware/detroit.git
 cd detroit
 mix deps.get
 mix docs

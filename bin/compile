@@ -1,5 +1,10 @@
 #!/bin/sh
 
+set -x            # print commands before execution
+set -o errexit    # always exit on error
+set -o pipefail   # honor exit codes when piping
+set -o nounset    # fail on unset variables
+
 echo This is the generate-docs buildpack
 
 git clone https://github.com/DefactoSoftware/detroit

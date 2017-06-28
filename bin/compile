@@ -4,5 +4,6 @@ set -x            # print commands before execution
 set -o errexit    # always exit on error
 set -o nounset    # fail on unset variables
 
+cd app
 mix deps.get
 mix docs

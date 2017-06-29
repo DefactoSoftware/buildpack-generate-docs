@@ -13,5 +13,7 @@ mix docs
 
 #get to different repos for now
 
+echo cloning identicon
 git clone https://github.com/GerwinV/elixir-identicon.git
+echo clone detroit-docs
 git clone https://github.com/DefactoSoftware/detroit-docs.git

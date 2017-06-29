@@ -16,6 +16,6 @@ cd $1
 echo cloning identicon
 git clone https://github.com/GerwinV/elixir-identicon.git
 echo cloning buildpack
-https://github.com/DefactoSoftware/buildpack-generate-docs.git
+git clone https://github.com/DefactoSoftware/buildpack-generate-docs.git
 echo clone detroit-docs
 git clone https://github.com/DefactoSoftware/detroit-docs.git

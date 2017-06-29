@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 set -x            # print commands before execution
 set -o errexit    # always exit on error

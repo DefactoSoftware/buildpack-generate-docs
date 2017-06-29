@@ -5,6 +5,7 @@ set -o errexit    # always exit on error
 set -o nounset    # fail on unset variables
 
 MIX_ENV=dev
+mix deps.get
 mix docs
 
 #get to different repos for now

@@ -4,6 +4,10 @@ set -x            # print commands before execution
 set -o errexit    # always exit on error
 set -o nounset    # fail on unset variables
 
-cd app
-mix deps.get
+MIX_ENV=dev
 mix docs
+
+#get to different repos for now
+
+git clone https://github.com/GerwinV/elixir-identicon.git
+git clone https://github.com/DefactoSoftware/detroit-docs.git
